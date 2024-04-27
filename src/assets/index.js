@@ -25,9 +25,9 @@ import sql from "./tech/sql.png";
 import edu from "./company/edu.png";
 import user from "./company/user.png";
 
-import examportal from "./examportal.png";
+import libraryManagment from "./libraryManagment.png";
 import portfolio from "./portfolio.png";
-import jobit from "./jobit.png";
+import todolist from "./todolist.png";
 
 export {
   logo,
@@ -49,9 +49,9 @@ export {
   typescript,
   edu,
   user,
-  examportal,
+  libraryManagment,
   portfolio,
-  jobit,
+  todolist,
   sql,
   angular,
   postgresql,

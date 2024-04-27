@@ -40,28 +40,24 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am Shivam Shashank Deshmukh, a highly motivated and adaptable
-        individual with a Bachelor's degree in Mechanical Engineering, fueled by
-        a relentless passion for the world of Computer Science. My objective is
-        to pursue a Master of Science in Computer Science to further enrich my
-        knowledge and skills in this field. Proficient in a variety of
-        programming languages and frameworks, including JAVA, C++, Python,
-        NodeJS, React, and more, I have experience in developing full-stack web
-        applications and leveraging cloud services like AWS for innovative
-        solutions.
+        I am Rahul Pradip Ambekar, a highly motivated and adaptable
+        individual with a Bachelor's degree in Information Technology(BSC-IT), fueled by
+        a relentless passion for the world of IT. My objective is
+        to pursue a Master of Computer Application (MCA) to further enrich my
+        knowledge and skills in the field of IT. Proficient in a variety of
+        programming languages and frameworks, including React,MongoDB,Express
+        NodeJS, javascript, and more, I have experience in developing full-stack web
+        applications.
         <br className="sm:block hidden" />
-        I have a strong academic background, achieving a CGPA of 8.21 in
-        Mechanical Engineering from Mumbai University's Terna Engineering
-        College. My leadership skills shine through in my project experiences,
-        such as designing and fabricating a go-kart chassis as a team leader and
-        developing a facial recognition system using AWS services. In addition
-        to my technical skills, I have actively participated in extracurricular
+        I have a strong academic background, achieving a CGPA of 8.40 in
+        Bachelor's of Information Technology from Mumbai University's gogate jogalekar college.
+        My leadership skills shine through in my project experiences.
+        In addition to my technical skills, I have actively participated in extracurricular
         activities, holding leadership positions in college committees and
         successfully organizing events that drew substantial crowds.
         <br className="sm:block hidden" />
-        With a keen interest in Quantitative Finance, Artificial Intelligence,
-        and Machine Learning, I am excited to contribute my skills and
-        leadership abilities to the field of Computer Science, making meaningful
+        With a keen interest in Information Technology I am excited to contribute my skills and
+        leadership abilities to the field of Information Technology, making meaningful
         advancements in technology and innovation. I like working on:
       </motion.p>
 

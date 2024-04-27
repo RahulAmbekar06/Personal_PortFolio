@@ -13,9 +13,9 @@ import {
   docker,
   edu,
   user,
-  examportal,
+  libraryManagment,
   portfolio,
-  jobit,
+  todolist,
   python,
   sql,
   postgresql,
@@ -189,55 +189,29 @@ const experiences = [
  
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "Shivam is an exceptionally talented, conscientious, and sincere student and can be described as an all-rounder, academically and personally. Shivam is a charismatic person who is admired by his peers as well as his faculties. ",
-    name: "Prof. Lalit Bhoye",
-    designation: "Associate Professor",
-    company: "Terna Engineering College",
-    image: "https://randomuser.me/api/portraits/men/7.jpg",
-  },
-  {
-    testimonial:
-      "A brilliant Undergraduate student. Shivam is a dedicated student, who commits total attention to academics and strives to improve wherever necessary. His positive attitude towards learning and curiosity for new things put him ahead of his peers.",
-    name: "Dr. C. M. Choudhari",
-    designation: "Professor & HOD",
-    company: "Department of Mechanical Engineering, Terna Engineering College",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "Shivam has a strong foundation of technical knowledge and intelligence, which he effectively applies to achieve optimal results. His ability to combine intelligence with creativity sets him apart and empowers him to excel in his life.",
-    name: "Dr. Varsha Bodade",
-    designation: "Professor",
-    company: "Department of Information Technology, Terna Engineering College",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
-    name: "ExamPortal Application (Quizio)",
+    name: "Library Managment System",
     description:
-      "Developed a full-stack web-based Exam Portal using Angular, Spring Boot, and PostgreSQL. Implemented role-based access control, authentication, and deployment on Render and Netlify. Enabled admin features for category, quiz, and question management, along with user-friendly quiz attempts.",
+      "In this we have separate login to admin and student. So the content in the admin section cannot be accessed by the student .Student can only login and see the books into the library. On other hand the admin can add the book update and delete the book. And add the suudent and romove the student",
     tags: [
       {
-        name: "springboot",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "NodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "angular",
+        name: "MongoDb",
         color: "pink-text-gradient",
       },
     ],
-    image: examportal,
-    source_code_link: "https://github.com/shivam-deshmukh-1107",
-    live: "https://examportal-quizio.netlify.app/",
+    image: libraryManagment,
+    source_code_link: "https://github.com/RahulAmbekar06/Library_Managment",
+    live: "https://libraryManagment-quizio.netlify.app/",
   },
   {
     name: "Personal Portfolio",
@@ -262,13 +236,35 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/shivam-deshmukh-1107",
-    live: "https://shivam-deshmukh.netlify.app/",
+    source_code_link: "https://github.com/RahulAmbekar06/Personal_PortFolio",
+   // live: "https://app.netlify.com/teams/rahulambekar06",
   },
   {
-    name: "Employee Attrition Prediction",
+    name: "Job list and Job search",
     description:
-      "This project utilizes machine learning algorithms to forecast employee attrition. By analyzing historical employee data, it helps organizations identify potential turnover risks and take proactive measures to retain valuable talent. This predictive approach leads to cost savings, higher employee satisfaction, and optimized workforce management for businesses.",
+      "In this i have use MERN Stack MongoDB, Expressjs, Reactjs, Nodejs. In this we can add a job, add location , add salary etc. And the job that we have we have added we can see them on the click of the button. So the job can be displayed on the screen.  ",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todolist,
+    source_code_link: "https://github.com/RahulAmbekar06/JobSearch",
+    //live: "https://github.com/RahulAmbekar06/Library_Managment",
+  },
+  {
+    name: "To Do list",
+    description:
+      "In this i have use MERN Stack MongoDB, Expressjs, Reactjs, Nodejs. In this we can Add the task that we have to do . And can make the list of it.",
     tags: [
       {
         name: "python",
@@ -283,76 +279,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/shivam-deshmukh-1107",
-    live: "https://github.com/shivam-deshmukh-1107/Employee-Attrition-Prediction/blob/main/Project%203%20-%20Employee%20Attrition%20Prediction.ipynb",
-  },
-  {
-    name: "BBC News Classification",
-    description:
-      "This project classifies BBC News articles into categories like sports, business, politics, entertainment, and technology using machine learning. It achieves high accuracy through data preprocessing and TF-IDF feature extraction, with Logistic Regression as the top-performing model.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "excel",
-        color: "green-text-gradient",
-      },
-      {
-        name: "jupyter",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/shivam-deshmukh-1107",
-    live: "https://github.com/shivam-deshmukh-1107/BBC-News-Classification/blob/main/Project%201%20-%20BBC%20News%20Classification.ipynb",
-  },
-  {
-    name: "Graduate Admission Prediction",
-    description:
-      "Predict graduate admission chances for prospective students using machine learning. This project explores various features such as GRE Score, TOEFL Score, and more to estimate the likelihood of admission, employing different regression models for accurate predictions.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "excel",
-        color: "green-text-gradient",
-      },
-      {
-        name: "jupyter",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/shivam-deshmukh-1107",
-    live: "https://github.com/shivam-deshmukh-1107/Graduate-Admission-Prediction/blob/main/Project%202%20-%20Graduate%20Admission%20Prediction.ipynb",
-  },
-  {
-    name: "Face Recognition Service",
-    description:
-      "Developed an efficient facial recognition system utilizing AWS S3, Lambda, and DynamoDB. Designed for image upload, automatic face print generation, and recognition to identify individuals. Leveraged AWS services to create a seamless and scalable solution.",
-    tags: [
-      {
-        name: "aws s3",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "dynamodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "lambda",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/shivam-deshmukh-1107",
-    live: "https://github.com/shivam-deshmukh-1107/AWS-Face-Rekognition",
+    image: todolist,
+    source_code_link: "https://github.com/RahulAmbekar06/ToDoList",
+    //live: "https://github.com/shivam-deshmukh-1107/BBC-News-Classification/blob/main/Project%201%20-%20BBC%20News%20Classification.ipynb",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences,  projects };
